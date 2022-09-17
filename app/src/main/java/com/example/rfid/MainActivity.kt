@@ -10,6 +10,9 @@ import com.example.rfid.label.RfidLabelDetails
 class MainActivity : AppCompatActivity() {
     private val rfids = listOf(RfidLabelDetails("1"), RfidLabelDetails("2"));
 
+    private var adress = "";
+
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
